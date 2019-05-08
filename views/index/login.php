@@ -52,19 +52,24 @@
     </div>
 </div>-->
 
-<div class="container" style="background-color: #F2EADC">
+<body style="background-color: F2EADC">
+    
+</body>    
+    <div class="container" >
     <div class="row" style="justify-content: center">
-        <div class="col-md-3" >
-            <nav aria-label="breadcrumb"  >
-                <ol class="breadcrumb" style="background: #F2EADC">
-                    <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio de sesion</a></li>
-                </ol>
-            </nav>            
-        </div>
-        <div class="col-md-6">
-
-        </div>
+    <div class="col-md-3" >
+        <nav aria-label="breadcrumb"  >
+            <ol class="breadcrumb" style="background: #F2EADC">
+                <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio de sesion</a></li>
+            </ol>
+        </nav>            
     </div>
+    <div class="col-md-6">
+                               
+    </div>
+    </div>
+                    
+                
     
     <div class="row" style="justify-content: center">
         <div class="col-md-9" align="center" style=" height: 500px ">

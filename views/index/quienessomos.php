@@ -1,17 +1,21 @@
-<div class="container" style="background-color: F2EADC">
+<body style="background-color: F2EADC">
+    
+</body>    
+    <div class="container" >
     <div class="row" style="justify-content: center">
     <div class="col-md-3" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
                 <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="?c=index&m=quienessomos">Quienes somos</a></li>
+                 <li class="breadcrumb-item"><a href="?c=index&m=quienessomos">Quienes somos</a></li>
             </ol>
         </nav>            
     </div>
     <div class="col-md-6">
                                
     </div>
-    </div>  
+    </div>
+  
   
     
     
@@ -61,7 +65,7 @@
                 make a type specimen book.
                 <br>
                 It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+                unchanged. 
             </p>
         </div>
         

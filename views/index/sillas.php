@@ -1,18 +1,23 @@
-<div class="container" style="background-color: F2EADC">
+<body style="background-color: F2EADC">
+    
+</body>    
+    <div class="container" >
     <div class="row" style="justify-content: center">
-    <div class="col-md-4" >
+    <div class="col-md-3" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
                 <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio</a></li>
                 <li class="breadcrumb-item"><a href="?c=index&m=productos">Productos</a></li>
-                <li class="breadcrumb-item"><a href="?c=index&m=semanarios">Sillas</a></li>
+               <li class="breadcrumb-item"><a href="?c=index&m=semanarios">Sillas</a></li>
             </ol>
         </nav>            
     </div>
-    <div class="col-md-5">
+    <div class="col-md-6">
                                
     </div>
     </div>
+                
+
     
     <div class="row" style="justify-content: center">
         <div class="col-md-1" ></div>

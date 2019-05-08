@@ -42,56 +42,83 @@
 
 
 
-<div class="container" style="background-color: #F2EADC">
-    <div class="row" style="justify-content: center">
-        <div class="col-md-3" >
-            <nav aria-label="breadcrumb"  >
-                <ol class="breadcrumb" style="background: #F2EADC">
-                    <li class="breadcrumb-item"><a href="?c=index&m=index">Contacto</a></li>
-                </ol>
-            </nav>            
-        </div>
-        <div class="col-md-6">
-
-        </div>
-    </div>
+<body style="background-color: #F2EADC">
     
+</body>    
+    <div class="container" >
     <div class="row" style="justify-content: center">
-        <div class="col-md-9" align="center" style=" height: 500px ">
-            <div class="col-md-6" align="center" style="justify-content: center">
-                <div class="container">
-    
-    <div class="row">
-        <div class="cold-md-4">
-            <!-- soporta -->
-            <form action="" method="post" class="form-consulta"> 
-                <div class="form-group">
-                    <label style="color: #ff9f1c"><strong>Nombres</strong> <span>*</span>
-                        <input type="text" name="nombre" placeholder="Nombres" class="campo-form" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label style="color: #ff9f1c"><strong>Apellidos</strong> <span>*</span>
-                        <input type="text" name="nombre" placeholder="Apellidos" class="campo-form" required>
-                    </label>
-                </div>
-                <div class="form-group">
-                    <label style="color: #ff9f1c"><strong>Correo Electronico: </strong><span>*</span>
-                            <input type="email" name="email" placeholder="Email" class="campo-form" required>
-                    </label>
-                </div>
-                <div class="form-group">
-		<label style="color: #ff9f1c"><strong>Mensaje:</strong>
-			<textarea name="mensaje" class="campo-form"></textarea>
-		</label>
-                </div>
-                <!--<input style="background: #ff9f1c; color: #F2EADC" type="submit" value="Enviar" class="btn-form">-->
-                <button style="background: #ff9f1c" type="submit" class="btn btn-primary">Enviar</button>
-	</form>
-        </div>
+    <div class="col-md-3" >
+        <nav aria-label="breadcrumb"  >
+            <ol class="breadcrumb" style="background: #F2EADC">
+                <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=index">Contacto</a></li>
+            </ol>
+        </nav>            
     </div>
-</div>
-            </div>
+    <div class="col-md-6">
+                               
+    </div>
+    </div>
+                    
+                
+    
+    <div class="row" style="">
+  
+               
+                            
+                    <div class="col-md-4">
+                        
+                        <div class="form-group">
+                        <label style="color: #ff9f1c"><strong>Teléfono</strong>
+                            <p>(57+1) 123 4560<br>
+                               (57+1) 789 0235<br>
+                               300 987 6543
+                            </p>
+                        </label>
+                        </div>
+                        
+                        <div class="form-group">
+                        <label style="color: #ff9f1c"><strong>Dirección</strong>
+                            <p>Calle 100 # 100 - 100<br>
+                               Barrio Lorem
+                            </p>
+                        </label>
+                        </div> 
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    <div class="col-md-8"  >
+                            <!-- soporta -->
+                            <form action="" method="post" class="form-consulta" > 
+                                <div class="form-group">
+                                    <label style="color: #ff9f1c"><strong>Nombres</strong> <span>*</span>
+                                        <input type="text" name="nombre" placeholder="Nombres" class="campo-form" required>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label style="color: #ff9f1c"><strong>Apellidos</strong> <span>*</span>
+                                        <input type="text" name="apellidos" placeholder="Apellidos" class="campo-form" required>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <label style="color: #ff9f1c"><strong>Correo Electronico: </strong><span>*</span>
+                                            <input type="email" name="email" placeholder="Email" class="campo-form" required>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                <label style="color: #ff9f1c"><strong>Mensaje:</strong>
+                                        <textarea name="mensaje" class="campo-form"></textarea>
+                                </label>
+                                </div>
+                                <!--<input style="background: #ff9f1c; color: #F2EADC" type="submit" value="Enviar" class="btn-form">-->
+                                <button style="background: #ff9f1c" type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                        </div>
+                    </div>
+              
         </div>
         </div>
     </div>

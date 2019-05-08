@@ -74,7 +74,7 @@
         </style>
     <body>
  
-        <header style="background-color: #F2D2B3;">
+        <header style="background-color: #5b3924;">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -96,7 +96,7 @@
                                 </div>
                             </div>
                             
-                            <div class="col-md-3" style="padding: 0; margin-left: 0 ; margin-top: 15px"> Síguenos
+                            <div class="col-md-3" style=" color: #eec170; padding: 0; margin-left: 0 ; margin-top: 15px"> Síguenos
                                 <a href="www.facebook.com" target="_blank"><img src="assets/img/facebook.png" style="width: 35px;height: 35px; "  class="img-responsive" ></a>
                                 <a href="https://web.whatsapp.com" target="_blank"><img src="assets/img/whatsapp.png" style="width: 35px;height: 35px; "  class="img-responsive" ></a>
                                 <a href="www.youtube.com" target="_blank"><img src="assets/img/youtube.png" style="width: 35px;height: 35px; "  class="img-responsive"  ></a>
@@ -105,15 +105,15 @@
                         
                         <div class="row">
                             <div class="col-md-8" style="">
-                                <div class="col-md-10 nav-scroller" >
-                                    <nav class="nav nav-underline" style="background: #eec170">
-                                      <a class="nav-link" href="?c=index&m=index">Inico</a>
+                                <div class="col-md-13 nav-scroller" >
+                                    <nav class="nav nav-underline" style="background: #eec170; color: #eec170">
+                                      <a class="nav-link" href="?c=index&m=index">Inicio</a>
                                       <a class="nav-link" href="?c=index&m=quienessomos">¿Quiénes somos?</a>
                                       <a class="nav-link" href="?c=index&m=productos">Productos</a>
                                       <a class="nav-link" href="?c=index&m=contacto">Contacto</a>
                                     </nav>
                                 </div>
-                                <div class="col-md-4 ">
+                                <div class="col-md-1 ">
                                     
                                 </div>
                             </div>
