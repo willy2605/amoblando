@@ -119,7 +119,7 @@
                             </div>
                             
                             <div class="col-md-4">
-                                <a href="?c=index&m=register"><img src="assets/img/carrito.png" style="width: 35px;height: 35px; "  class="img-responsive" ></a>
+                                <a href="?c=index&m=login"><img src="assets/img/carrito.png" style="width: 35px;height: 35px; "  class="img-responsive" ></a>
                                 <a href="?c=index&m=register" class="btn btn-info btn-sm" >Registrate</a>
                                 <a href="?c=index&m=login" class="btn btn-success btn-sm  ">Iniciar sesion</a>
                             </div>
