@@ -7,10 +7,8 @@
  */
 
 class IndexController {
-    
      private $modelUsuario;
     private $modelSecurity;
-    
     public function __construct() {
         try {
              $this->modelUsuario= new Usuario ();
@@ -111,31 +109,28 @@ class IndexController {
         //var_dump = imprime el contenido de un array o vector
         $this->modelUsuario->create($data); 
     }
-  
-    public function auth_user(){
-     
-       $correo_form=$_POST['email'];
-       $password_form=$_POST['password'];
-       foreach ($this->modelUsuario->consult_email($_POST['email']) as $value) {}
+   public function auth_user(){
+       $data=array($_POST['email'],$_POST['password']);
+    
+     $correo_form=$_POST['email'];
+     $password_form=$_POST['password'];
        
-       
-       
-       if(($correo_form==$value->correo)&&($password_form==$value->password)){
-           $this->modelSecurity->Auth($correo_form);
-           header("location:?c=administrador&m=home");
-       }else{
-            header ('location:?c=index&m=login');
-       }
-       
-   }
+   foreach ($this->modelUsuario->consult_email($_POST['email']) as $value){}
+   //var_dump ($value);
    
-   public function destroy_user(){
-       $this->modelSecurity->Destroy();
+   if(($correo_form==$value->correo)&&($password_form==$value->password)){
+       $this->modelSecurity->Auth($correo_form);
+       header("location:?c=administrador&m=home");     
+             
+   }else{
        header("location:?c=index&m=login");
-   } 
-      
-       
-  
+   }
+   }
+  public function destroy_user(){
+  $this->modelSecurity->Destroy();
+  header("location:?c=index&m=login");
+   
+   }
    }
    
 

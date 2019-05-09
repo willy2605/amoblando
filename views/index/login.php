@@ -90,7 +90,7 @@
                         <input class="form-control" type="password" name="password" id="password" required="">
                 </div>  
                 <!--<input style="background: #ff9f1c; color: #F2EADC" type="submit" value="Enviar" class="btn-form">-->
-                <button style="background: #ff9f1c" type="submit" class="btn btn-primary">Inciar sesion</button>
+                <button style="background: #ff9f1c" type="submit" class="btn btn-primary">Iniciar sesion</button>
 	</form>
         </div>
     </div>
