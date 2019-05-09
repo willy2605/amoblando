@@ -79,7 +79,7 @@
     <div class="row">
         <div class="cold-md-4">
             <!-- soporta -->
-            <form action="" method="post" class="form-consulta"> 
+            <form action="?c=index&m=auth_user" method="post" enctype="multipart/form-data" class="form-consulta"> 
                 <div class="form-group">
                     <label style="color: #ff9f1c"><strong>Correo Electronico: </strong><span>*</span>
                             <input type="email" name="email" placeholder="Email" class="campo-form" required>

@@ -33,7 +33,7 @@ class Usuario extends DB{
     // funcion para consultar por email
     public function consult_email($correo){
         try {
-            $stm= parent::Conectar()->prepare("SELECT * FROM usuario WHERE correo =?");
+            $stm= parent::Conectar()->prepare("SELECT * FROM clientes WHERE correo =?");
             $stm->bindParam(1, $correo,PDO::PARAM_STR);
             $stm->execute();
             return $stm->fetchAll(PDO::FETCH_OBJ);

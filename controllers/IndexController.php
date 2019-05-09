@@ -132,44 +132,17 @@ class IndexController {
    public function destroy_user(){
        $this->modelSecurity->Destroy();
        header("location:?c=index&m=login");
-   } public function auth_user(){
-       //$data=array($_POST['email'],$_POST['password']);
-      // var_dump ($data); 
+   } 
+      
        
-       //datos que ingreso el usuario por medio del formulario 
-       $correo_form=$_POST['email'];
-       $password_form=$_POST['password'];
-       foreach ($this->modelUsuario->consult_email($_POST['email']) as $value) {}
-       //var_dump ($value); 
-       //si el socrreo que ingreso el usuario = al correo que esta en la BD
-       //SI LA CONTRAÑESA QUE INGRESO EL USUARIO = A LA CONTRASEÑA QUE ESTA EN LA BD
-       
-       //Y  = amd , &&
-       //o = or,||
-       
-       
-       if(($correo_form==$value->correo)&&($password_form==$value->password)){
-           //  generar la instancia del metodo security
-           $this->modelSecurity->Auth($correo_form);
-           //redirecciona a la vista del admin
-           header("location:?c=administrador&m=home");
-       }else{
-           //redirecciona al formulario
-            header ('location:?c=index&m=login');
-       }
-       
-   }
-   
-   public function destroy_user(){
-       $this->modelSecurity->Destroy();
-       header("location:?c=index&m=login");
+  
    }
    
 
    
    
   
-}
+
 
 
 
