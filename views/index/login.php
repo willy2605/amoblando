@@ -60,7 +60,7 @@
     <div class="col-md-3" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
-                <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio de sesion</a></li>
+                <li class="breadcrumb-item"><a href="?c=administrador&m=home">Inicio de sesion</a></li>
             </ol>
         </nav>            
     </div>

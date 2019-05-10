@@ -10,7 +10,7 @@ class Security extends DB {
     
     public function Auth ($correo){
         try {
-            $stm= parent::Conectar()->prepare ("SELECT * FROM usuario WHERE correo = ?");
+            $stm= parent::Conectar()->prepare ("SELECT * FROM usuarios WHERE correo = ?");
             $stm->bindParam(1,$correo, PDO::PARAM_STR);
             $stm->execute();
             $_SESSION['USER']=$stm->fetch(PDO::FETCH_OBJ);

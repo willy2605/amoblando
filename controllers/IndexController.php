@@ -105,7 +105,7 @@ class IndexController {
    }
    
    public function store_user(){
-        $data=array($_POST['names'],$_POST['email'],$_POST['password']);
+        $data=array($_POST['nombre'],$_POST['email'],$_POST['password']);
         //var_dump = imprime el contenido de un array o vector
         $this->modelUsuario->create($data); 
     }

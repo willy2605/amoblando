@@ -3,7 +3,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <a class="navbar-brand" href="#">
-       <img src="assets/img/logo1.png" class="d-inline-block aling-top" alt="" style="padding: 0px" width="100" height="50">
+       <img src="assets/img/logo-tostao.png" class="d-inline-block aling-top" alt="" style="padding: 0px" width="100" height="50">
       </a>
       <button class="navbar-toggler sidebar-toggler d-md-down-none" type="button" data-toggle="sidebar-lg-show">
         <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
        
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            Amuebla tu hogar
+            Amoblando tu Hogar
           </a>
           <div class="dropdown-menu dropdown-menu-right">
             <div class="dropdown-header text-center">

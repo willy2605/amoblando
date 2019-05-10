@@ -11,7 +11,7 @@ class Usuario extends DB{
 
     public function create($data){
         try {
-          $stm=parent::conectar()->prepare("INSERT INTO usuario (nombres,correo,password)VALUES(?,?,?)");  
+          $stm=parent::conectar()->prepare("INSERT INTO usuarios (nombres,correo,password)VALUES(?,?,?)");  
           //bindparam = uno por cada (?) que se encuentre en la query
           $stm->bindParam(1, $data['0'],PDO::PARAM_STR);
           $stm->bindParam(2, $data['1'],PDO::PARAM_STR);
@@ -33,7 +33,7 @@ class Usuario extends DB{
     // funcion para consultar por email
     public function consult_email($correo){
         try {
-            $stm= parent::Conectar()->prepare("SELECT * FROM clientes WHERE correo =?");
+            $stm= parent::Conectar()->prepare("SELECT * FROM usuarios WHERE correo =?");
             $stm->bindParam(1, $correo,PDO::PARAM_STR);
             $stm->execute();
             return $stm->fetchAll(PDO::FETCH_OBJ);
