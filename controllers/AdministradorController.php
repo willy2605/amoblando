@@ -39,5 +39,13 @@ class AdministradorController{
          parent::Crear($data);
      }
       
+     public function registrarusuario() {
+        require_once 'views/all/header.php';
+        require_once 'views/all/navbar.php';
+        require_once 'views/all/sidebar.php'; 
+        require_once 'views/tendero/registrar.php';
+        require_once 'views/all/aside.php';
+        require_once 'views/all/footer.php';
+    }
 }
     

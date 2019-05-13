@@ -71,7 +71,7 @@
             <!-- soporta -->
            <form action="?c=index&m=store_user" method="post" enctype="multipart/form-data" class="form-consulta"> 
             <!-- <form action="?c=index&m=store_user" method="post" enctype="multipart/form-data">-->
-                <div class="form-group"> -->
+                <div class="form-group"> 
                     <label style="color: #ff9f1c"><strong>Nombres</strong> <span>*</span>
                         <input type="text" name="nombre" placeholder="Nombres" class="campo-form" required>
                     </label>

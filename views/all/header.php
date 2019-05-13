@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="assets/img/logo-tostao.png" align="left" style="margin-left: 10px; " >
+                    <img src="assets/img/logoamoblando.jpg" align="left" style="margin-left: 10px; " >
                 </div> 
                 
                     <div class="col-md-9">
