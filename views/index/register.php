@@ -58,9 +58,6 @@
     </div>
     </div>
 
-                    
-                
-    
     <div class="row" style="justify-content: center">
         <div class="col-md-9" align="center" style=" height: 500px ">
             <div class="col-md-6" align="center" style="justify-content: center">
@@ -76,12 +73,50 @@
                         <input type="text" name="nombre" placeholder="Nombres" class="campo-form" required>
                     </label>
                 </div>
-                
-                <div class="form-group">
-                    <label style="color: #ff9f1c"><strong>Correo Electronico: </strong><span>*</span>
-                            <input type="email" name="email" placeholder="Email" class="campo-form" required>
+            
+                <div class="form-group"> 
+                    <label style="color: #ff9f1c"><strong>Apellidos</strong> <span>*</span>
+                        <input type="text" name="apellidos" placeholder="apellidos" class="campo-form" required>
                     </label>
                 </div>
+                
+                <div class="form-group">
+                    <label style="color: #ff9f1c"><strong>Correo Electronico:</strong><span>*</span>
+                        <input type="email" name="email" placeholder="Email" class="campo-form" required>
+                    </label>
+                </div>
+            
+                <div class="form-group">
+                    <label style="color: #ff9f1c"><strong>Tipo de documento </strong><span>*</span>
+                           <!-- <input type="email" name="email" placeholder="Email" class="campo-form" required>-->
+                    </label>
+                <select style="color:#5B3924">
+                <option value="Cedula de Ciudadania">Cedula de Ciudadania</option> 
+                <option value="Cedula de Extranjeria">Cedula de Extranjería</option> 
+                <option value="Pasaporte">Pasaporte</option>                     
+                </select> 
+                </div>
+            
+                <div class="form-group"> 
+                    <label style="color: #ff9f1c"><strong>Documento</strong> <span>*</span>
+                        <input type="text" name="Documento" placeholder="Documento" class="campo-form" required>
+                    </label>
+                </div>
+            
+                <div class="form-group"> 
+                    <label style="color: #ff9f1c"><strong>Genero</strong> <span>*</span>
+                    </label>
+                 <select style="color:#5B3924">
+                <option value="Masculino">Masculino</option> 
+                <option value="Femenino">Femenino</option>                                     
+                </select>
+                </div>
+            
+                <div class="form-group">
+                <label style="color:#ff9f1c"><strong>Ciudad:</strong></label> 
+                    <input class="form-control" type="names" name="names" id="names" required="">
+                </div>
+            
                 <div class="form-group">
                     <label style="color: #ff9f1c"><strong>Contraseña</strong></label>
                         <input class="form-control" type="password" name="password" id="password" required="">
