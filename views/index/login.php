@@ -90,7 +90,22 @@
                         <input class="form-control" type="password" name="password" id="password" required="">
                 </div>  
                 <!--<input style="background: #ff9f1c; color: #F2EADC" type="submit" value="Enviar" class="btn-form">-->
-                <button style="background: #ff9f1c" type="submit" class="btn btn-primary">Iniciar sesion</button>
+                <button style="background: #ff9f1c" type="submit" class="btn btn-primary"><a  href="?c=index&m=home">Iniciar sesion</a></button>
+                <!--<a  href="?c=index&m=home" class="btn btn-primary px-4">Sesion</a>-->
+                
+               <!-- <a id="btnSubmit" href="?c=administrador&m=home&send=true" class="btn btn-success text-white" >inicio</a>-->
+                 
+                 <br/><br/>
+                 <?php
+                 if(@$_REQUEST['send']=='true'){
+                 ?>
+                 <div class="alert alert-success" role="alert">
+                     <strong>Se han guardado los cambios correctamente</strong>
+                    <?php 
+                 }
+                     ?>
+                     
+                 </div>
 	</form>
         </div>
     </div>

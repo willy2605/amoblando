@@ -19,6 +19,15 @@ class IndexController {
         }
     }
     
+    public function  home(){
+        require_once 'views/all/coreui/header.php';
+        require_once 'views/all/coreui/navbar.php';
+        require_once 'views/all/coreui/sidebar.php';
+        require_once 'views/administrador/home.php';
+        require_once 'views/all/coreui/aside.php';
+        require_once 'views/all/coreui/footer.php';
+      }
+    
     public function index(){
         $titulo='';
         require_once 'views/all/header.php';
@@ -105,7 +114,7 @@ class IndexController {
    }
    
    public function store_user(){
-        $data=array($_POST['nombre'],$_POST['email'],$_POST['password']);
+        $data=array($_POST['nombres'],$_POST['email'],$_POST['password']);
         //var_dump = imprime el contenido de un array o vector
         $this->modelUsuario->create($data); 
     }

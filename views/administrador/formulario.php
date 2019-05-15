@@ -7,7 +7,7 @@
             
             <label>Documento:</label>
             <input name="documento" placeholder="Escriba sus nombres" required="">
-            <label>Nombre:</label>
+            <label>Nombres:</label>
             <input name="nombres" placeholder="Escriba sus nombres" required="">
             <label>Apellidos:</label>
             <input name="apellidos" placeholder="Escriba sus nombres" required="">

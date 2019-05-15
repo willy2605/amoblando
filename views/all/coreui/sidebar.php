@@ -3,7 +3,7 @@
         <nav class="sidebar-nav">
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link" href="?c=administrador&m=dashboard">
+              <a class="nav-link" href="?c=index&m=home">
                 <i class="nav-icon icon-speedometer"></i> Administrador
                 <span class="badge badge-primary">NEW</span>
               </a>
@@ -15,7 +15,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="?c=administrador&m=usuario">
+              <a class="nav-link" href="?c=index&m=productos">
                 <i class="nav-icon icon-speedometer"></i> Productos
                 <span class="badge badge-primary">NEW</span>
               </a>

@@ -29,13 +29,13 @@ class AdministradorController{
         require_once 'views/all/coreui/footer.php';
       }
       public function formulario(){
-         require_once 'views/administrador/formulario.php';
+         require_once 'views/index/register.php';
      }
      
      public function guardar_usuario(){
          $nombre=$_POST['nombres'];
          $apellidos=$_POST['apellidos'];
-         $data=array($nombre,$apellidos);
+         $data=array($nombres,$apellidos);
          parent::Crear($data);
      }
       
@@ -43,7 +43,7 @@ class AdministradorController{
         require_once 'views/all/header.php';
         require_once 'views/all/navbar.php';
         require_once 'views/all/sidebar.php'; 
-        require_once 'views/tendero/registrar.php';
+        require_once 'views/index/register.php';
         require_once 'views/all/aside.php';
         require_once 'views/all/footer.php';
     }
