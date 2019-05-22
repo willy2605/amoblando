@@ -6,9 +6,9 @@
     <div class="col-md-4" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
-                <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="?c=index&m=productos">Productos</a></li>
-                <li class="breadcrumb-item"><a href="?c=index&m=escritorios">Escritorios</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=index" style="color: #5b3924">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=productos" style="color: #5b3924">Productos</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=escritorios" style="color: #5b3924">Escritorios</a></li>
             </ol>
         </nav>            
     </div>
@@ -46,7 +46,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -62,7 +62,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -78,7 +78,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -94,7 +94,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -115,7 +115,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -131,7 +131,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -147,7 +147,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 
@@ -163,7 +163,7 @@
 
                         <div class="precio">  
                             <span class="precio"><strong>$ 123.123</strong></span>
-                            <a href="?c=index&m=register" class="btn btn-info btn-sm" >Comprar</a>
+                            <a href="?c=index&m=login" class="btn btn-info btn-sm" >Comprar</a>
                         </div>
                     </div>
                 </div> 

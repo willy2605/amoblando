@@ -106,11 +106,11 @@
                         <div class="row">
                             <div class="col-md-8" style="">
                                 <div class="col-md-13 nav-scroller" >
-                                    <nav class="nav nav-underline" style="background: #eec170; color: #eec170">
-                                      <a class="nav-link" href="?c=index&m=index">Inicio</a>
-                                      <a class="nav-link" href="?c=index&m=quienessomos">¿Quiénes somos?</a>
-                                      <a class="nav-link" href="?c=index&m=productos">Productos</a>
-                                      <a class="nav-link" href="?c=index&m=contacto">Contacto</a>
+                                    <nav class="nav nav-underline" >
+                                        <a style="color:  #eec170; font-size: 20px" class="nav-link" href="?c=index&m=index"><strong>Inicio</strong></a>
+                                      <a style="color:  #eec170; font-size: 20px" class="nav-link" href="?c=index&m=quienessomos"><strong>¿Quiénes somos?</strong></a>
+                                      <a style="color:  #eec170; font-size: 20px" class="nav-link" href="?c=index&m=productos"><strong>Productos</strong></a>
+                                      <a style="color:  #eec170; font-size: 20px" class="nav-link" href="?c=index&m=contacto"><strong>Contacto</strong></a>
                                     </nav>
                                 </div>
                                 <div class="col-md-1 ">

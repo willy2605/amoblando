@@ -49,7 +49,7 @@
     <div class="col-md-3" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
-                <li class="breadcrumb-item"><a href="?c=index&m=index">Registro</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=index" style="color: #5b3924">Registro</a></li>
             </ol>
         </nav>            
     </div>
@@ -58,77 +58,139 @@
     </div>
     </div>
 
-    <div class="row" style="justify-content: center">
-        <div class="col-md-9" align="center" style=" height: 500px ">
-            <div class="col-md-6" align="center" style="justify-content: center">
+    <div class="row" style="">
+        <div class="col-md-9" align="center" style="  ">
+            <div class="col-md-6" align="center" style="">
+               
                 <div class="container">
-    
-    <div class="row">
-        <div class="cold-md-4">
-            <!-- soporta -->
-           <form action="?c=index&m=store_user" method="post" enctype="multipart/form-data" class="form-consulta"> 
-            <!-- <form action="?c=index&m=store_user" method="post" enctype="multipart/form-data">-->
-                <div class="form-group"> 
-                    <label style="color: #ff9f1c"><strong>Nombres</strong> <span>*</span>
-                        <input type="text" name="nombres" placeholder="Nombres" class="campo-form" required>
-                    </label>
-                </div>
-            
-                <div class="form-group"> 
-                    <label style="color: #ff9f1c"><strong>Apellidos</strong> <span>*</span>
-                        <input type="text" name="apellidos" placeholder="apellidos" class="campo-form" required>
-                    </label>
-                </div>
-                
+   
+   <div class="row"> 
+       <div class="col-md-2">
+           
+         </div>
+       <div class="col-md-10" style="background-color:#5B3924; width:50px; padding: 30px; ">
+           <!-- soporta -->
+           <form action="?c=index&m=store_user" method="post" enctype="multipart/form-data">
+           
                 <div class="form-group">
-                    <label style="color: #ff9f1c"><strong>Correo Electronico:</strong><span>*</span>
-                        <input type="email" name="email" placeholder="Email" class="campo-form" required>
-                    </label>
-                </div>
-            
-                <div class="form-group">
-                    <label style="color: #ff9f1c"><strong>Tipo de documento </strong><span>*</span>
-                           <!-- <input type="email" name="email" placeholder="Email" class="campo-form" required>-->
-                    </label>
-                <select style="color:#5B3924">
-                <option value="Cedula de Ciudadania">Cedula de Ciudadania</option> 
-                <option value="Cedula de Extranjeria">Cedula de Extranjería</option> 
-                <option value="Pasaporte">Pasaporte</option>                     
-                </select> 
-                </div>
-            
-                <div class="form-group"> 
-                    <label style="color: #ff9f1c"><strong>Documento</strong> <span>*</span>
-                        <input type="text" name="Documento" placeholder="Documento" class="campo-form" required>
-                    </label>
-                </div>
-            
-                <div class="form-group"> 
-                    <label style="color: #ff9f1c"><strong>Genero</strong> <span>*</span>
-                    </label>
-                 <select style="color:#5B3924">
-                <option value="Masculino">Masculino</option> 
-                <option value="Femenino">Femenino</option>                                     
-                </select>
-                </div>
-            
-                <div class="form-group">
-                <label style="color:#ff9f1c"><strong>Ciudad:</strong></label> 
+                   
+                    <div class="form-group">
+                    <label style="color: #ff9f1c"><strong>Nombres</strong></label>
                     <input class="form-control" type="names" name="names" id="names" required="">
-                </div>
-            
-                <div class="form-group">
+                    </div>
+
+                    <div class="form-group">
+                    <label style="color: #ff9f1c"><strong>Apellidos</strong></label>
+                    <input class="form-control" type="names" name="names" id="names" required="">
+                    </div>
+
+                    <div class="form-group">
+                    <label style="color: #ff9f1c"><strong>Correo electrónico</strong></label>
+                    <input class="form-control" type="email" name="email" id="email" required="">
+                    </div>
+                    
+                    <label style="color: #ff9f1c"><strong>Tipo de Documento</strong></label>
+                    <select style="color:#5B3924">
+                    <option value="Tipo de Documento"></option>
+                    <option value="Cedula de Ciudadania">Cedula de Ciudadania</option> 
+                    <option value="Cedula de Extranjeria">Cedula de Extranjería</option> 
+                    <option value="Pasaporte">Pasaporte</option>                     
+                    </select>
+                    
+                    <div class="form-group">  
+                    <label style="color: #ff9f1c"><strong>Documento</strong></label> 
+                    <input class="form-control" type="names" name="names" id="names" required="">
+                    </div>
+                    
+                    <label style="color: #ff9f1c"><strong>Genero</strong></label>
+                    <select style="color:#5B3924">
+                    <option value="Genero">Género</option>
+                    <option value="Masculino">Masculino</option> 
+                    <option value="Femenino">Femenino</option>                                     
+                    </select>
+              
+                    <div class="form-group">
+                    <label style="color: #ff9f1c"><strong>Ciudad</strong></label> 
+                    <input class="form-control" type="names" name="names" id="names" required="">
+                    </div>
+               
+                    <div class="form-group">
                     <label style="color: #ff9f1c"><strong>Contraseña</strong></label>
-                        <input class="form-control" type="password" name="password" id="password" required="">
-                </div>  
-                <!--<input style="background: #ff9f1c; color: #F2EADC" type="submit" value="Enviar" class="btn-form">-->
-                <button style="background: #ff9f1c" type="submit" class="btn btn-primary">Registrar</button>
-	</form>
-        </div>
-    </div>
+                    <input class="form-control" type="password" name="password" id="password" required="">
+                    </div>
+                    
+                    <center><button style="background: #ff9f1c" type="submit" class="btn btn-primary">Registrar</button></center>
+           </form>
+       </div>
+   </div>
+      <br>
+      <br>
 </div>
+    </div>
+   
+                
+                
             </div>
         </div>
         </div>
     </div>
 </div>
+
+
+<div class="container">
+   
+   <div class="row"> 
+       <div class="col-md-4">
+           
+         </div>
+       <div class="col-md-5" style="background-color:#5B3924; width:20px; padding: 30px; ">
+           <!-- soporta -->
+           <form action="?c=index&m=store_user" method="post" enctype="multipart/form-data">
+           <select style="color:#5B3924">
+               <option value="Tipo de Documento">Tipo de Documento</option>
+               <option value="Cedula de Ciudadania">Cedula de Ciudadania</option> 
+               <option value="Cedula de Extranjeria">Cedula de Extranjería</option> 
+               <option value="Pasaporte">Pasaporte</option>                     
+               </select>
+               <br>
+               <br>
+               <div class="form-group">
+               <label style="color:#F2D2B3">Documento:</label> 
+                   <input class="form-control" type="names" name="names" id="names" required="">
+               </div>
+               <select style="color:#5B3924">
+               <option value="Genero">Género</option>
+               <option value="Masculino">Masculino</option> 
+               <option value="Femenino">Femenino</option>                                     
+               </select>
+               <br>
+               <br>
+               <div class="form-group">
+                   <label style="color:#F2D2B3">Nombres:</label> 
+                   <input class="form-control" type="names" name="names" id="names" required="">
+               </div>
+               <div class="form-group">
+               <label style="color:#F2D2B3">Apellidos:</label> 
+                   <input class="form-control" type="names" name="names" id="names" required="">
+               </div>
+               <div class="form-group">
+               <label style="color:#F2D2B3">Ciudad:</label> 
+                   <input class="form-control" type="names" name="names" id="names" required="">
+               </div>
+               <div class="form-group">
+                   <label style="color:#F2D2B3">Correo electronico:</label> 
+                   <input class="form-control" type="email" name="email" id="email" required="">
+               </div>
+               <div class="form-group">
+                   <label style="color:#F2D2B3">Contraseña:</label>
+                   <input class="form-control" type="password" name="password" id="password" required="">
+               </div>
+               <button type="submit" class="btn boton2" style="color: #5B3924">Registrar</button>
+           </form>
+       </div>
+   </div>
+      <br>
+      <br>
+</div>
+   
+

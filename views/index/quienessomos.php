@@ -6,8 +6,8 @@
     <div class="col-md-3" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
-                <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio</a></li>
-                 <li class="breadcrumb-item"><a href="?c=index&m=quienessomos">Quienes somos</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=index" style="color: #5b3924">Inicio</a></li>
+                 <li class="breadcrumb-item"><a href="?c=index&m=quienessomos" style="color: #5b3924">Quienes somos</a></li>
             </ol>
         </nav>            
     </div>
@@ -16,11 +16,9 @@
     </div>
     </div>
   
-  
-    
     
     <div class="row">
-        <div class="col-md-6"> 
+        <div class="col-md-12" style="background-color: #5b3924; height: 700px; padding: 0; margin-left: 0 "> 
            <div class="bd-example"  >
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -39,7 +37,7 @@
                         </div>
                         
                         <div class="carousel-item">
-                        <img src="assets/img/fabrica003.jpg" class="d-block w-100" alt="...">
+                        <img src="assets/img/fabrica003.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
     
@@ -55,24 +53,35 @@
             </div>
         </div>
         
-        <div class="col-md-5" style="background-color: #5b3924; width: 550px; height: 300px; padding: 0; margin-left: 0 ">
-            <h3 style="color: #ff9f1c; text-align: center; margin-top: 20px">
-                ¿Quienes somos?
+        
+        
+       <div class="col-md-12" style="background-color: #5b3924; height: 370px; padding: 0; margin-left: 0 ">
+            <h3 style="color: #ff9f1c; text-align: center">
+                ¿Quiénes somos?
             </h3>
-            <p style="color: #fff; text-align: right; margin-right: 50px; margin-left: 50px">
+            <p style="color: #fff;  margin-right: 50px; margin-left: 50px">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                make a type specimen book.
+                <br><br>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
                 make a type specimen book.
-                <br>
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially 
-                unchanged. 
+                <br><br>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to 
+                make a type specimen book.
             </p>
         </div>
-        
-        <div class="col-md-12" style="background-color: #F2EADC; height: 200px; padding: 0; margin-left: 0 ">
             
         </div>
     </div>
+        
+
 </div>
     
  

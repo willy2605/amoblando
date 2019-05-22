@@ -6,8 +6,8 @@
     <div class="col-md-3" >
         <nav aria-label="breadcrumb"  >
             <ol class="breadcrumb" style="background: #F2EADC">
-                <li class="breadcrumb-item"><a href="?c=index&m=index">Inicio</a></li>
-                <li class="breadcrumb-item"><a href="?c=index&m=productos">Productos</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=index" style="color: #5b3924">Inicio</a></li>
+                <li class="breadcrumb-item"><a href="?c=index&m=productos" style="color: #5b3924">Productos</a></li>
             </ol>
         </nav>            
     </div>
